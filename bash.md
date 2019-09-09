@@ -26,7 +26,18 @@
 * Tips and Tricks:
     * You can rename a file by having its "destination" be a new filename.
 
+---
+
 ### `pwd`
 
 * Usage: `pwd`
 * What it does: prints working directory.
+
+---
+
+### `mkdir`
+
+* Usage: `mkdir [directory name...]`
+* What it does: Makes a directory or directories.
+* Useful flags:
+  * `-p`: Makes parent directories given a path.
