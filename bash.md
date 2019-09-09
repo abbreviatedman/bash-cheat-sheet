@@ -41,3 +41,22 @@
 * What it does: Makes a directory or directories.
 * Useful flags:
   * `-p`: Makes parent directories given a path.
+
+
+
+---
+
+### `touch`
+
+* Usage: `touch [file name...]`
+* What it does: Makes a file or files.
+
+
+---
+
+### `rm`
+
+* Usage: `rm [directory name(s) or file name(s)]`
+* What it does: Removes files or directories.
+* Useful flags:
+  * `-rf`: removes directories
