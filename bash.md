@@ -1,4 +1,4 @@
-# Colin's BASH Cheat Sheets
+# Colin's BASH Cheat Sheet
 
 ### `ls`
 
@@ -56,7 +56,16 @@
 
 ### `rm`
 
-* Usage: `rm [directory name(s) or file name(s)]`
-* What it does: Removes files or directories.
+* Usage: `rm [file name(s)]`
+* What it does: Removes files.
 * Useful flags:
-  * `-rf`: removes directories
+  * `-rf`: removes directories as well
+
+---
+
+### `cp`
+
+* Usage: `cp file[...] location`
+* What it does: copies chosen file(s) to chosen place
+* Tips and Tricks:
+    * The last item must be a directory if copying multiple files.
